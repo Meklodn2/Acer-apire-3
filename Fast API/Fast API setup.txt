@@ -1,0 +1,26 @@
+#Virtual env fayilini yaravis:
+python -m venv .env
+
+#Virtual env fayiliniaktivatsiya qilish(windows):
+.env\Scripts\activate
+
+#Vitual env fayilini desaktivatsiyaqilis(windows/linux):
+deactivate
+
+#Ornatilgan package larni korsatish:
+pip freeze
+
+#Fast API ornatish:
+pip install "fastapi[standard]"
+
+
+#Ornatilgan package larni korsatish:
+pip freeze
+
+#o'rnatilgan package larni nomi va versiyasi bilan saqlash
+pip freeze > requirements.txt 
+
+#requirements.txt fayilini ichidagi barcha package larni o'rnatish
+pip install -r requirements.txt 
+
+

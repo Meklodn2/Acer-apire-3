@@ -1,0 +1,57 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 400px;
+    height: 400px;
+
+}
+
+form {
+    padding: 30px;
+}
+
+.inp {
+
+    background-color: grey;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.qwe {
+    text-align: center;
+
+}
+
+button {
+    background-color: red;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding-left: 110px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+} 

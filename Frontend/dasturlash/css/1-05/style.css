@@ -1,0 +1,53 @@
+
+body{
+    padding: 20px;
+}
+.grid .card{
+    width: 100%;
+    background-color:#fff ;
+    border-radius: 12px;
+    border: 1px solid;
+    padding: 20px;
+
+}
+.grid .card img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    opacity: 1;
+
+}
+.grid .card .title{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+.grid .card .price{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: green;
+}
+.grid .card .description{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: black;
+
+}
+.grid .card .actions{
+    width: 100%;
+    margin-top: 40px;
+    border-top: 1px solid orangered;
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+
+}
+.grid .card .actions .btn{
+width: 100%;
+padding: 10px;
+border: 1px solid pink;
+border-radius: 7px;
+font-size: 10px;
+color: #fff;
+}

@@ -1,0 +1,60 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .vavdar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     padding-right: 40px;
+     background-color: pink;
+     height: 100px;
+     padding-left: 40px;
+ }
+
+
+
+ .menu {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 60px;
+     list-style-type: none;
+ }
+
+ .logo {
+     width: 100%;
+ }
+
+ .logo h4 {
+     font-size: 30px;
+     color: white;
+ font-style: italic;
+    }
+
+ .menu li a {
+     font-size: 20px;
+     font-weight: 700;
+     color: white;
+     text-decoration: none;
+ }
+
+ .menu li a:focus {
+     color: deepskyblue;
+     font-size: 30px;
+ }
+
+ .navdar .logo img {
+     width: 60px;
+     height: 60px;
+ }
+
+ img {
+     height: 60px;
+     width: 60px;
+ 
+ }

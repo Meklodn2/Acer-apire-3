@@ -1,0 +1,62 @@
+#Virtual env fayilini yaravis:
+python -m venv .env
+
+#Virtual env fayiliniaktivatsiya qilish(windows):
+.env\Scripts\activate
+
+#Vitual env fayilini desaktivatsiyaqilis(windows/linux):
+deactivate
+
+#Ornatilgan package larni korsatish:
+pip freeze
+
+#Djangoni ornatish:
+pip install Django
+
+#Django config fayilini yaratish:
+django-admin startproject config .
+
+#Djangoni ishga tushurish:
+py manage.py runserver
+
+#Table larni yaratish:
+py manage.py migrate
+py manage.py makemigrations
+
+#Djnago uchun admin yaratish 
+py manage.py createsuperuser
+
+#Django app yaratish:
+py manage.py startapp app_name
+
+#o'rnatilgan package larni nomi va versiyasi bilan saqlash
+pip freeze > requirements.txt 
+
+#requirements.txt fayilini ichidagi barcha package larni o'rnatish
+pip install -r requirements.txt 
+
+#o'natilgan packagelarni o'chirish
+pip uninstall package_name  package_name package_name
+
+
+# stattic fayillani yaratish (css,bootstrap,js,admin frontend fayillari)
+py manage.py collectstatic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

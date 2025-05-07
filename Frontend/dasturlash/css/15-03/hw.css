@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.card{
+    width: 100%;
+ background-color: blue;
+    height: 150px;
+    
+}
+.general-card{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+

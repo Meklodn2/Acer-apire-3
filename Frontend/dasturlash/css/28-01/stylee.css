@@ -1,0 +1,12 @@
+input{
+    border:3px dotted red;
+    border-radius: 10px;
+}
+div{
+    height: 100px;
+    background-color: red;
+    border-top: 3px solid green;
+    border-bottom: 40px dotted greenyellow;
+    border-left: 2px dashed aqua;
+    border-right: 5px   solid black;
+}

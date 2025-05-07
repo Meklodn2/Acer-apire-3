@@ -1,0 +1,73 @@
+.navbar {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.ism {
+    width: 100%;
+}
+
+.ism p {
+    font-size: 20px;
+    color: rgb(251, 250, 249);
+    font-weight: 700;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+
+}
+
+.menu li a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.menu li i {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar2 {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    display: center ;
+
+    align-items: center;
+    justify-content:center;
+    background-color: blue;
+    font-size: 20px;
+    color: rgb(251, 250, 249);
+    font-weight: 700;
+}
+input{
+    padding: 20px;
+}
+.ism{
+    display: flex;
+}
+.menu li i {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+}
+.ism{
+    display: flex;
+}

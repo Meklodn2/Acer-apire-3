@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+  
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 100vh;
+}
+.card{
+    width: 600px;
+    background-color: white;
+    padding: 40px;
+}
+.inp{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

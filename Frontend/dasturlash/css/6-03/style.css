@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card {
+width: 90%;
+
+padding: 60px;
+}
+
+.bg-black{
+  
+    background-color: black;
+}
+.bg-blue {
+    background-color:blue ;
+    }
+    .bg-green{
+        background-color: green;
+    
+    }
+    .bg-red{
+    
+        background-color: red;
+    }
+    .bg-white{
+       
+        background-color: rgb(161, 18, 168);
+    }

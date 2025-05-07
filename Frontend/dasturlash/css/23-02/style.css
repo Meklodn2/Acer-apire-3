@@ -1,0 +1,39 @@
+.ui{
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+   
+}
+.ty
+{
+    height: 80px;
+    background-color: blue;
+    width: 100%;
+   border-radius: 45px;
+}
+.er{
+  background-color: green;
+  height: 80px;
+  width: 100%;
+}
+.qw{
+    background-color: red;
+    height: 80px;
+    width: 100%;
+}
+h1{
+    color: white;
+    
+}
+.sw{
+    background-color: orange;
+    color: whitesmoke;
+    font-size: 18px;
+
+}
+span{
+    background-color: yellowgreen;
+    color: white;
+    font-size: 18px;
+
+}

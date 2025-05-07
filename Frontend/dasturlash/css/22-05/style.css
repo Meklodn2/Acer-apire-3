@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 300px;
+    padding-right: 300px;
+    background: url(./img/banner-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.menu {
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.content1 {
+    width: 100%;
+    height: 30 0px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.content1 p {
+    margin-top: 30px;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+}
+
+
+
+.img2 {
+    background: url(./img/photo_2024-05-24_19-51-49.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    height: 100px;
+}
+
+.minilogs1 {
+    background: url(./img/ayroui.svg);
+    height: 100px;
+}
+
+.minilogs2 {
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(./img/graygrids.svg);
+}
+
+.minilogs3 {
+    height: 100px;
+    background: url(./img/lineicons.svg);
+
+}
+
+.minilogs4 {
+
+    height: 100px;
+    background: url(./img/ecommerce-html.svg);
+}
+
+.minilogs5 {
+    background: url(./img/uideck.svg);
+    height: 100px;
+
+}
+
+.extratext {
+    text-align: center;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 400px;
+    gap: 15px;
+    background-color: transparent;
+}
+
+
+.card .mcard1 {
+    width: 100%;
+    height: 200px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoc1 {
+    background: url(./img/services-shape-1.svg);
+
+    background-repeat: no-repeat;
+
+
+}
+
+.logoc2 {
+    background: url(./img/services-shape-2.svg);
+
+    background-repeat: no-repeat;
+
+
+}
+
+.logoc3 {
+    background: url(./img/services-shape-3.svg);
+    background-repeat: no-repeat;
+
+}
+
+.lqw {
+    height: 100px;
+    width: 30%;
+    padding-left: 50px;
+    display: blocka;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textc {
+    text-align: center;
+}
+/* undraws */
+ .undraw {
+    width: 100%;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+
+ .undraw .photo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background: url(./img/undraw_online_test_re_kyfx.svg);
+    height: 300px;
+
+}
+.text{
+    display:flex ;
+}
+.mcard1:hover{
+    border: 3px solid red;
+
+}
+

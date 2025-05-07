@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    animation-name: bluecard;
+    animation-duration: 7s;
+
+}
+  @keyframes bluecard{
+    from{
+        background-color: dodgerblue;
+        margin-right: 50%;
+
+    }
+
+
+    to{
+
+        background-color: red;
+        transform: rotate(360deg);
+        margin-left: 50%;
+    }
+  }

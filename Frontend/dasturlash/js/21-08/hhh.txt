@@ -1,0 +1,19 @@
+API Methods (https://example.com/info)=> RESPONSE 
+  1.GET -> RESPONSE
+  2.POST REQUEST / RESPONSE (https://example.com/info, {body} ||[body])
+  3.PUT -> REQUEST / RESPONSE (https://example.com/info/{id}/{name}, {body}, [body]);
+  4.DELETE -> REQUEST / RESPONSE (https://example.com/info/{id} => path veriable)
+  5.PATH
+
+  status = 
+  1.200 response secessfully
+  2.400 Bad request
+  3.500 Internal server eror
+  4.502 Bad Getway
+  5.401 unauthorized 
+  6.404 Not found
+  
+
+
+
+  

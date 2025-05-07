@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(30, 131, 232);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo h5 {
+    font-size: 27px;
+    color: #fff;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.navigation {
+    width: 100%;
+    padding: 30px;
+    background-color: #202020;
+    text-align: center;
+
+
+}
+
+.navigation ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #fff;
+    gap: 33px;
+}
+
+.navigation ul li {
+
+    font-size: 25px;
+}
+
+.content1 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+
+.photo1 {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(img/Снимок\ экрана\ 2024-04-29\ 215302.png);
+    height: 550px;
+}
+
+.photo2 {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(img/Снимок\ экрана\ 2024-02-28\ 192707.png);
+    height: 550px;
+}

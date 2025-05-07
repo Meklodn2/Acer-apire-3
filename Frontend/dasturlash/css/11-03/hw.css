@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+ padding: 0;
+ box-sizing:border-box;   
+}
+body{
+    background-color: green;
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.card{
+   
+
+padding: 40px;
+width: 600px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}

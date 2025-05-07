@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card {
+    height: 600px;
+    background-color: red;
+    width: 500px;
+    float: right;
+    animation-name: qwe;
+    transform: rotate(120deg);
+}
+

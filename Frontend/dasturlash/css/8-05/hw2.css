@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    padding: 75px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.mcard {
+    padding-left: 25px;
+
+}
+
+input {
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+
+    border-bottom: 2px solid aquamarine;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.password {
+    margin-top: 10px;
+
+}
+
+body {
+    background-color: aquamarine;
+}
+
+label {
+    color: rgb(6, 193, 131);
+}

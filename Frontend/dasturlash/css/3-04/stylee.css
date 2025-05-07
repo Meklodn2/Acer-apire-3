@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+.Acard {
+    width: 100%;
+    display: flex;
+
+    gap: 10px;
+}
+
+.acard {
+    width: 100%;
+    background-color: red;
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+   
+
+.Bcard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.bcard {
+    width: 100%;
+    background-color: red;
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+ 
+    width: 100%;
+    gap: 10px;
+    border: 2px solid black;
+    
+    border-radius: 10px;
+    outline: none;
+    
+    
+    padding: 20px;
+    
+}
+form{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    }

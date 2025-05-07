@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius:5px ;
+}
+
+.first h4 {
+    color: blue;
+}
+
+.second h4 {
+    color: yellow;
+}
+
+.sirdth h4 {
+    color: aqua;
+}
+
+.forth h4 {
+    color: rgb(12, 255, 150);
+}
+
+.logo1 {
+    width: 30%;
+    height: 40px;
+    display: flex;
+    background-color: blue;
+}
+
+.logo2 {
+
+
+    width: 30%;
+    height: 40px;
+    display: flex;
+    background-color: yellow;
+}
+
+.logo3 {
+    background-color: aqua;
+    width: 30%;
+    height: 40px;
+    display: flex;
+}
+
+.logo4 {
+    background-color: rgb(12, 255, 150);
+    width: 20%;
+    height: 40px;
+    display: flex;
+}
+
+text {
+    width: 100%;
+
+}
+h4{
+    font-weight: 700;
+    
+}

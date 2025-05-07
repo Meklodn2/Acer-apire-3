@@ -1,0 +1,35 @@
+CREATE DATABASE school;
+
+USE school;
+
+
+CREATE TABLE students(
+	id int auto_increment primary key,
+	full_name varchar(50),
+	age int,
+	gpa FLOAT
+);
+
+INSERT INTO students(name,age,gpa)
+VALUES('John Hoe', 18, 3.5);
+INSERT INTO students(full_name,age,gpa)
+VALUES('Jane Smith', 9, 3.8);
+INSERT INTO students(full_name,age,gpa)
+VALUES('Johnson Alex',17,3.2);
+
+SELECT full_name , gpa FROM students WHERE gpa > 3.5;
+
+
+UPDATE students SET gpa = 3.7 WHERE full_name = 'John Doe';
+
+SELECT AVG(gpa) AS average_gpa from students
+
+
+
+ALTER TABLE students 
+ADD COLUMN email VARCHAR(100),
+ADD COLUMN enrollment_date DATE;
+
+
+ALTER TABLE students
+MODIFY COLUMN email VARCHAR(100) default 'berilmagan'

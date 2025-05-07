@@ -1,0 +1,51 @@
+CREATE DATABASE book_store;
+USE book_store;
+CREATE TABLE authors (
+	author_id INT AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(50) NOT NULL,
+	country VARCHAR(100)	
+);
+
+
+CREATE TABLE books(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	author_id INT NOT NULL,
+	published_year YEAR,
+	title VARCHAR(100),
+	FOREIGN KEY(author_id) REFERENCES authors(author_id)
+);
+INSERT INTO authors (name,country)
+values
+('john','Tadjikistan'),
+('erlan', 'Qazaqistan'),
+('yusuf','Uzbekistan');
+
+INSERT INTO books (author_id, published_year, title)
+VALUES
+(1, 1996,'Harry potter'),
+(2, 1999,'Titanik'),
+(3, 1997,'C tutorial');
+
+
+SELECT authors.name, authors.country, books.published_year, books.title
+FROM authors
+JOIN books ON authors.author_id = books.author_id;
+
+
+ALTER TABLE books
+ADD COLUMN price INT;
+
+
+
+UPDATE books
+SET price = 23
+where id = 1;
+
+UPDATE books
+SET price = 33
+where id = 2;
+
+
+
+
+SELECT AVG(price) from books

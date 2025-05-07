@@ -1,0 +1,5 @@
+Ism: jonh\, Familiya: doe, Yosh: 23
+Ism: dg, Familiya: ww, Yosh: 33
+Ism: hdd, Familiya: ddd, Yosh: 33
+Ism: hello, Familiya: hello, Yosh: 80
+Ism: hello, Familiya: hello, Yosh: 12
